@@ -97,7 +97,7 @@ nextBtn.addEventListener("click", () => {
 function showResult() {
   quizScreen.classList.remove("active");
   resultScreen.classList.add("active");
-  scoreDisplay.textContent = ${score} / ${questions.length};
+  scoreDisplay.textContent = `${score} / ${questions.length}`;
 
   if (score === questions.length) {
     finalMessage.textContent = "Excellent! You're a Web Tech Master!";
